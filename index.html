@@ -1,15 +1,102 @@
+<!DOCTYPE html>
+
 <html>
 
-<head>
-    <title>Weather Wall</title>
-</head>
+	<head>
+		
+		<title>Weather Wall</title>
+		<style>
+						
+			body {
+				width: 100%;
+				margin: auto;
+			}
+			.container {
+				width: 70%;
+				margin: auto;
+			}
+			#header {
+				width: 100%;
+				background-color: whitesmoke;
+				overflow: hidden;
+				top: 0;
+				position: fixed;
+				height: 60px;
+				z-index: 10;
+			}
+			#logo h4 a {
+				float: left;
+				text-decoration: none;
+				font-family: helvetica;
+			}						
+			#nav li {
+				list-style-type: none;
+				float: right;
+				margin: auto 10px;				
+			}
+			#nav li a {
+				display: block;
+				text-decoration: none;
+			}
+			#cover {
+				background-color: navajowhite;
+				position: fixed;
+				top: 0;
+				height: 70%;
+				width: 100%;
+			}
+			#cover p{
+				padding-top: 20%;
+			}
+			#content {
+				position: relative;
+				margin-top: 30%;
+				background-color: floralwhite;
+				overflow: hidden;
+			}
+			
+		</style>
+		
+	</head>
 
-<body>
-    <h3>Welcome!</h3>
-    <p>This is the first try</p>
-    <p>Weather data for more than 2100 locations are now available in EnergyPlus weather format — 1042 locations in the USA,</br> 
-    71 locations in Canada, and more than 1000 locations in 100 other countries throughout the world.</br>  
-    The weather data are arranged by World Meteorological Organization region and Country.</p>
-</body>
+	<body>
+		
+		<div id="header">
+			<div class="container">
+				<div id="logo">
+					<h4> <a href="#"> Weather Wall </a> </h4>
+				</div>
+				<div id="nav">
+					<ul>
+						<li><a href="#"> About </a></li>
+						<li><a href="#"> Home </a></li>						
+					</ul>
+				</div>					
+			</div>
+		</div>
+		
+		<div id="cover">
+			<div class="container">
+			<p>NOAA's National Centers for Environmental Information (NCEI) is responsible for preserving, monitoring, assessing,<br>
+					and providing public access to the Nation's treasure of climate and historical weather data and information.</p>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div class="container">
+				<p>The use of weather charts in a modern sense began in the middle portion of the 19th century in order to devise a theory on storm systems. During the Crimean War a storm devastated the French fleet at Balaklava, and the French scientist Urbain Le Verrier was able to show that if a chronological map of the storm had been issued, the path it would take could have been predicted and avoided by the fleet.<br><br>
 
+				In England, the scientist Francis Galton heard of this work, as well as the pioneering weather forecasts of Robert Fitzroy. After gathering information from weather stations across the country for the month of October 1861, he plotted the data on a map using his own system of symbols, thereby creating the world's first weather map. He used his map to prove that air circulated clockwise around areas of high pressure; he coined the term 'anticyclone' to describe the phenomenon. He was also instrumental in publishing the first weather map in a newspaper, for which he modified the pantograph (an instrument for copying drawings) to inscribe the map onto printing blocks. The Times began printing weather maps using these methods with data from the Meteorological Office.<br><br>
+
+				The introduction of country-wide weather maps required the existence of national telegraph networks so that data from across the country could be gathered in real time and remain relevant for subsequent analysis. The first such use of the telegraph for gathering data on the weather was the Manchester Examiner newspaper in 1847:<br><br>
+
+				...led us to inquire if the electric telegraph was yet extended far enough from Manchester to obtain information from the eastern counties...inquiries were made at the following places; and answers were returned, which we append...
+				It was also important for time to be standardized across time zones so that the information on the map should accurately represent the weather at a given time. A standardized time system was first used to coordinate the British railway network in 1847, with the inauguration of Greenwich Mean Time.<br><br>
+
+				In the USA, The Smithsonian Institution developed its network of observers over much of the central and eastern United States between the 1840s and 1860s once Joseph Henry took the helm. The U.S. Army Signal Corps inherited this network between 1870 and 1874 by an act of Congress, and expanded it to the west coast soon afterwards. At first, not all the data on the map was used due to a lack of time standardization. The United States fully adopted time zones in 1905, when Detroit finally established standard time.</p>
+			</div>
+		</div>
+		
+	</body>
+	
 </html>
