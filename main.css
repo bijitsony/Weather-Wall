@@ -1,17 +1,15 @@
-/* Styling the body */
+		/* Styling the body */
 		
 		body {
 			width: 100%;
 			margin: auto;
 		}
-		
 		/* Styling the .container */
 		
 		.container {
 			width: 70%;
 			margin: auto;
 		}
-		
 		/* Styling the #header */
 		
 		#header {
@@ -24,7 +22,6 @@
 			z-index: 10;
 			box-shadow: 0px 2px 5px gray;
 		}
-		
 		/* Styling the #logo */
 		
 		#logo h4 a {
@@ -33,7 +30,6 @@
 			font-family: helvetica;
 			font-size: 20px;
 		}
-		
 		/* Styling the #nav */
 		
 		#nav li {
@@ -43,7 +39,8 @@
 			font-size: 20px;
 		}
 		
-		#nav li a:hover, #nav li a:focus {
+		#nav li a:hover,
+		#nav li a:focus {
 			display: block;
 			border-bottom-style: solid;
 			border-bottom-color: blue;
@@ -56,7 +53,6 @@
 			transition-property: border-bottom-color;
 			transition-duration: .7s;
 		}
-		
 		/* Styling the #cover */
 		
 		#cover {
@@ -65,7 +61,7 @@
 			width: 100%;
 			height: 100%;
 			background-image: url(data/images/index/cover.gif);
-			background-size: 100% ;
+			background-size: 100%;
 			background-color: ghostwhite;
 		}
 		
@@ -77,9 +73,8 @@
 			color: navy;
 			text-shadow: .5px .5px gray;
 			font-size: 20px;
-			background: rgba(255,255,255,.8);
+			background: rgba(255, 255, 255, .8);
 		}
-		
 		/* Styling the #content */
 		
 		#content {
@@ -88,13 +83,11 @@
 			background-color: white;
 			overflow: hidden;
 		}
-		
 		/* Styling the #basic-idea */
 		
 		#basic-idea img {
 			width: 100%;
 		}
-		
 		/* Styling the #head-cities & #cities */
 		
 		#head-cities {
@@ -138,19 +131,19 @@
 			height: 250px;
 			text-align: center;
 			vertical-align: middle;
-			line-height: 250px;			
+			line-height: 250px;
 			background-color: whitesmoke;
 			text-decoration: none;
 		}
 		
-		#cities ul li a:hover {			
+		#cities ul li a:hover {
 			background-color: transparent;
 			transition-property: background-color;
-			transition-duration: .5s;			
+			transition-duration: .5s;
 		}
 		
-		#cities ul li a {			
+		#cities ul li a {
 			background-color: whitesmoke;
 			transition-property: background-color;
-			transition-duration: .5s;			
+			transition-duration: .5s;
 		}
