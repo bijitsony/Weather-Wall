@@ -1,0 +1,156 @@
+/* Styling the body */
+		
+		body {
+			width: 100%;
+			margin: auto;
+		}
+		
+		/* Styling the .container */
+		
+		.container {
+			width: 70%;
+			margin: auto;
+		}
+		
+		/* Styling the #header */
+		
+		#header {
+			width: 100%;
+			background-color: white;
+			overflow: hidden;
+			top: 0;
+			position: fixed;
+			height: 60px;
+			z-index: 10;
+			box-shadow: 0px 2px 5px gray;
+		}
+		
+		/* Styling the #logo */
+		
+		#logo h4 a {
+			float: left;
+			text-decoration: none;
+			font-family: helvetica;
+			font-size: 20px;
+		}
+		
+		/* Styling the #nav */
+		
+		#nav li {
+			list-style-type: none;
+			float: right;
+			margin: auto 10px;
+			font-size: 20px;
+		}
+		
+		#nav li a:hover, #nav li a:focus {
+			display: block;
+			border-bottom-style: solid;
+			border-bottom-color: blue;
+		}
+		
+		#nav li a {
+			display: block;
+			text-decoration: none;
+			border-bottom-color: white;
+			transition-property: border-bottom-color;
+			transition-duration: .7s;
+		}
+		
+		/* Styling the #cover */
+		
+		#cover {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url(data/images/index/cover.gif);
+			background-size: 100% ;
+			background-color: ghostwhite;
+		}
+		
+		#cover p {
+			position: relative;
+			margin-top: 30%;
+			padding: 50px;
+			text-align: center;
+			color: navy;
+			text-shadow: .5px .5px gray;
+			font-size: 20px;
+			background: rgba(255,255,255,.8);
+		}
+		
+		/* Styling the #content */
+		
+		#content {
+			position: relative;
+			margin-top: 50%;
+			background-color: white;
+			overflow: hidden;
+		}
+		
+		/* Styling the #basic-idea */
+		
+		#basic-idea img {
+			width: 100%;
+		}
+		
+		/* Styling the #head-cities & #cities */
+		
+		#head-cities {
+			position: relative;
+			margin-top: 50px;
+			width: 100%;
+			height: 10em;
+			box-shadow: 0px -5px 5px whitesmoke;
+		}
+		
+		#head-cities .container h4 {
+			position: absolute;
+			margin-top: 2%;
+			font-size: 20px;
+		}
+		
+		#head-cities .container p {
+			position: absolute;
+			margin-top: 5%;
+			font-size: 20px;
+		}
+		
+		#cities ul li {
+			display: block;
+			list-style-type: none;
+			float: left;
+			box-shadow: 0px 0px 0px gray;
+			background-image: url(data/images/index/gujarat_outline.jpg);
+		}
+		
+		#cities ul li:hover {
+			box-shadow: 5px 5px 10px gray;
+			transition-property: box-shadow;
+			transition-duration: .5s;
+		}
+		
+		#cities ul li a {
+			display: block;
+			float: left;
+			width: 250px;
+			height: 250px;
+			text-align: center;
+			vertical-align: middle;
+			line-height: 250px;			
+			background-color: whitesmoke;
+			text-decoration: none;
+		}
+		
+		#cities ul li a:hover {			
+			background-color: transparent;
+			transition-property: background-color;
+			transition-duration: .5s;			
+		}
+		
+		#cities ul li a {			
+			background-color: whitesmoke;
+			transition-property: background-color;
+			transition-duration: .5s;			
+		}

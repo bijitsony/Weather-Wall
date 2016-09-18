@@ -1,99 +1,63 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-    <meta charset = "UTFF-8">
-    <title>Weather Wall</title>
-    <style>
-            body {
-				width: 100%;
-				margin: auto;
-			}
-			.container {
-				width: 70%;
-				margin: auto;
-			}
-			#header {
-				width: 100%;
-				background-color: whitesmoke;
-				overflow: hidden;
-				top: 0;
-				position: fixed;
-				height: 60px;
-				z-index: 10;
-			}
-			#logo h4 a {
-				float: left;
-				text-decoration: none;
-				font-family: helvetica;
-			}
-			#nav li {
-				list-style-type: none;
-				float: right;
-				margin: auto 10px;
-			}
-			#nav li a {
-				display: block;
-				text-decoration: none;
-			}
-			#cover {
-				background-color: navajowhite;
-				position: fixed;
-				top: 0;
-				height: 70%;
-				width: 100%;
-			}
-			#cover p{
-				padding-top: 20%;
-			}
-			#content {
-				position: relative;
-				margin-top: 30%;
-				background-color: floralwhite;
-				overflow: hidden;
-			}
-			img {
-			    position:relative;
-			    left:-100px;
-			    top:-1px;
-			    }
-    </style>
+	<meta charset="UTFF-8">
+	<title>Weather Wall</title>
+	<link rel="icon" type="image/png" href="data/images/favicon/earth.png">
+	<link rel="stylesheet" type="text/css" href="main.css">	
 </head>
 
 <body>
-<div id="header">
-    <div class="container">
-        <div id="logo">
-            <h4> <a href="#"> Weather Wall </a> </h4>
-        </div>
-        <div id="nav">
-            <ul>
-                <li><a href="#"> About </a></li>
-                <li><a href="#"> Home </a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+	<div id="header">
+		<div class="container">
+			<div id="logo">
+				<h4> <a href="#"> Weather Wall </a> </h4>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="#"> FAQs </a></li>
+					<li><a href="#"> Home </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-<div id="cover">
-    <div class="container">
-        <p>
-            Climate analysis is one of the first steps in achieving sustainability in design.
-            Here, at weather-wall, we will try to answer questions one might have while
-            considering the climatic parameters in design.</p>
-        </p>
-    </div>
-</div>
+	<div id="cover">
+		<div class="container">
+			<p>
+				Climate analysis is one of the first steps in achieving sustainability in design.
+				<br> Here, at weather-wall, we will try to answer questions one might have while considering the climatic parameters in design.
+			</p>
+		</div>
+	</div>
 
-<div id="content">
-    <div class="container">
-        <p>Below is chart that shows dry bulb temperature for the city of Ahmedabad throughout
-            the year</p>
-        <img src = "DBT.jpg" height = "300">
-        <p>Now from the following chart, it can be clearly seen that the outside air temperature
-            is not really in the comfort range for most part of the year except some hours in
-            the winter months.</p>
-        <img src = "DBT_21to26.jpg" height = "300">
-    </div>
-</div>
+	<div id="content">
+		<div class="container">
+			<div id="basic-idea">
+				<p>Below is chart that shows dry bulb temperature for the city of Ahmedabad throughout the year</p>
+				<img src="data/images/index/DBT.jpg">
+				<p>Now from the following chart, it can be clearly seen that the outside air temperature is not really in the comfort range for most part of the year except some hours in the winter months.</p>
+				<img src="data/images/index/DBT_21to26.jpg">
+			</div>	
+		</div>
+		<div id="head-cities">
+			<div class="container">
+				<h4>Find your State here</h4>
+				<p>
+					We're analyzing weather, currently, for the cities in Gujarat, India. <br>
+					We'll be uploading more as soon as we get out of this freaking stormy weather!
+				</p>
+			</div>
+		</div>
+		<div class="container">			
+			<div id="cities">
+				<ul>
+					<li><a href="#" id="guj"> Gujarat </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </body>
+
 </html>
